@@ -1,0 +1,23 @@
+{
+  "name": "api-restful",
+  "version": "1.0.0",
+  "description": "Appi Restfull",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "mocha"
+  },
+  "author": "Yorbel Ariza",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.1.1",
+    "nodemon": "^2.0.4"
+  }
+}
